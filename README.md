@@ -4,8 +4,8 @@
 
 This project involves controlling the Parrot AR-Drone 2.0 using a Logitech joystick and Image Recognition. The software to control the drone's behavior was developed in ROS (Robot Operating System) with C++ implementation, as well as using Image Recognition (with the OpenCV library). The drone had two control modes:</p>					
 
-1. **Manual Mode:** Drone is controlled using a joystick. Dron's camera is active but it does not trigger a specific action.
-2. **Automatic Mode:** Once it's flying, the drone turns until it detects a target (a red ball) which triggers the landing action.
+**1. Manual Mode:** Drone is controlled using a joystick. Dron's camera is active but it does not trigger a specific action.
+**2. Automatic Mode:** Once it's flying, the drone turns until it detects a target (a red ball) which triggers the landing action.
 
 ### Some of the ROS Packages and Libraries Used are
 
