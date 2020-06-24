@@ -1,4 +1,4 @@
-# Drone-Control-with-ROS-and-OpenCV
+# Drone Control with ROS and OpenCV
 
 ## Summary
 
