@@ -19,4 +19,4 @@ This project involves controlling the Parrot AR-Drone 2.0 using a Logitech joyst
 
 * `joy`: The joy library contains a node called "joy_node". This node publishes a message with the current state of the joystick's buttons and axes.
 
-* `cv_bridge` for OpenCV: This provides a bridge to convert between ROS image messages and OpenCV images.
+* `cv_bridge for OpenCV`: This provides a bridge to convert between ROS image messages and OpenCV images.
