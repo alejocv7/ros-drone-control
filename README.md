@@ -3,6 +3,10 @@
 <p align="center">
   <img width="400" src="https://whatsyourtech.ca/wp-content/uploads/2014/07/Parrot-AR-Drone-2-Elite-Edition.jpg">
 </p>
+
+## Skills and tools used
+
+> ROS | C++ | Linux
                                                                                                                 
 ## Summary
 
@@ -13,10 +17,10 @@ This project involves controlling the Parrot AR-Drone 2.0 using a Logitech joyst
 
 ### Some of the ROS Packages and Libraries Used are
 
-* `ardrone_autonomy`: This allows for messages to be sent and received by the drone. The drone takes off or lands if an ROS std_msgs/Empty message is published to ardrone/takeoff or ardrone/-land topics, respectively.
+* `ardrone_autonomy:` This allows for messages to be sent and received by the drone. The drone takes off or lands if an ROS std_msgs/Empty message is published to ardrone/takeoff or ardrone/-land topics, respectively.
 
-* `cmv_vel/geometry_msgs`: In order to move the drone around, a message is sent with ROS to the topic cmd_vel using geometry_msgs/Twist. The drone can then drive in any direction with a velocity specified in m/s.
+* `cmv_vel/geometry_msgs:` In order to move the drone around, a message is sent with ROS to the topic cmd_vel using geometry_msgs/Twist. The drone can then drive in any direction with a velocity specified in m/s.
 
-* `joy`: The joy library contains a node called "joy_node". This node publishes a message with the current state of the joystick's buttons and axes.
+* `joy:` The joy library contains a node called "joy_node". This node publishes a message with the current state of the joystick's buttons and axes.
 
-* `cv_bridge for OpenCV`: This provides a bridge to convert between ROS image messages and OpenCV images.
+* `cv_bridge for OpenCV:` This provides a bridge to convert between ROS image messages and OpenCV images.
